@@ -1,11 +1,12 @@
 import React from 'react'
+import './Experience.css'
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience" id='Experience'>
         <div className="achievement">
-            <div className="circle">8+</div>
-            <span>Years</span>
+            <div className="circle">1</div>
+            <span>Year</span>
             <span>Experience</span>
         </div>
         <div className="achievement">
@@ -14,8 +15,8 @@ const Experience = () => {
             <span>Projects</span>
         </div>
         <div className="achievement">
-            <div className="circle">10+</div>
-            <span>Companies</span>
+            <div className="circle">0</div>
+            <span>Company</span>
         </div>
     </div>
   )

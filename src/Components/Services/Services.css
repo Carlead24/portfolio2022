@@ -35,3 +35,26 @@
     margin-top: 1rem;
 
 }
+
+@media screen and (max-width: 480px) {
+    .services{
+      margin-top: 0;
+      flex-direction: column;
+      gap: 5rem;
+      height: 66rem;
+      padding: 0;
+    }
+
+    .cards{
+        flex-direction: column;
+        gap: 17rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    .cards>*{
+        position: static;
+    }
+}
+
